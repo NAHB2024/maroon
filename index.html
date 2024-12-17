@@ -47,14 +47,7 @@
       <div class="site-navbar">
         <div class="container py-1">
           <div class="row align-items-center">
-            <div class="col-8 col-md-8 col-lg-4">
-              <h1 class="">
-                <a href="index.html" class="h5 text-uppercase text-maroon">
-                  <strong
-                    >Maroon Developers</strong
-                  >
-                </a>
-              </h1>
+            <div id="logo" class="col-8 col-md-8 col-lg-4">
             </div>
             <div class="col-4 col-md-4 col-lg-8">
               <nav
@@ -432,7 +425,7 @@
               <p><span class="read-more">Learn More</span></p>
             </a>
           </div>
-          
+
           <div class="col-md-6 col-lg-4 mb-4">
             <a href="#" class="service text-center border rounded">
               <span class="icon flaticon-house"></span>
@@ -496,6 +489,7 @@
       gtag("config", "UA-23581568-13");
       $(function () {
         $("#properties").load("properties.html");
+        $("#logo").load("logo.html")
       });
     </script>
   </body>
